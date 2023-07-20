@@ -1,0 +1,49 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-color: #d5d4d4;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.background-image {
+  background-image: url("./image/cloudsimg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+}
+
+.weather-app {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: 30px;
+  color: #757575;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-weight: 400;
+}
